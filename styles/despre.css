@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+}
+
+.despre-intro {
+  background-image: url(https://www.itschool.ro/_next/static/media/background.5c87565d.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 546px;
+}
+
+.despre-main .despre-intro h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 280px;
+  font-family: Asap, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.despre-main .cine-suntem h5 {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--transparent-gray);
+}
+
+.despre-main .cine-suntem h1 {
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--black);
+}
+
+.despre-main .cine-suntem .paragraph1,
+.despre-main .cine-suntem .paragraph2 {
+  line-height: 1.5;
+  color: var(--black);
+  max-width: 580px;
+}
+
+.despre-main .cine-suntem .cine-suntem-coloana1 .paragraph2 {
+  padding-bottom: 50px;
+}
+
+.cine-suntem {
+  display: flex;
+  padding-top: 150px;
+  gap: 120px;
+  padding-bottom: 80px;
+}
+
+.cine-suntem .cine-suntem-coloana1 img {
+  display: inline-block;
+  width: 580px;
+  height: 580px;
+}
+
+.cine-suntem .cine-suntem-coloana2 img {
+  display: inline-block;
+  width: 480px;
+  height: 480px;
+  padding-bottom: 40px;
+}
+
+.despre-trainers {
+  padding-top: 70px;
+  background-image: url(https://www.itschool.ro/_next/static/media/background.f010c851.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.despre-main .despre-trainers h5 {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--transparent-gray);
+}
+
+.despre-main .despre-trainers h1 {
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--black);
+  width: 510px;
+}
+
+.despre-main .despre-trainers p {
+  line-height: 1.5;
+  width: 550px;
+  color: var(--black);
+}
+
+.despre-main .despre-trainers img {
+  padding: 100px 0 50px 0;
+  max-width: 100%;
+}
+
+.despre-trainers-coloana1 {
+  display: inline-block;
+  padding-right: 130px;
+}
+
+.despre-trainers-coloana2 {
+  display: inline-block;
+}
+
+.despre-main .our-trainers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 220px;
+  position: relative;
+  left: 590px;
+}
+
+.despre-main .despre-trainers .btn-div {
+  padding-bottom: 50px;
+}
+
+.despre-main .despre-trainers .meet-trainers {
+  border-top: 1px solid var(--border-top-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.despre-main .despre-trainers .meet-trainers h1 {
+  width: 550px;
+}
+
+.despre-main .despre-trainers .meet-trainers p {
+  width: 560px;
+  padding-bottom: ;
+}
+
+.become-trainer {
+  padding: 10px 50px;
+}
+
+.despre-main .location-sect {
+  display: flex;
+  flex-direction: column;
+}
+
+.despre-main .location-sect .location-coloana1 h5 {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--transparent-gray);
+}
+
+.despre-main .location-sect .location-coloana1 h1 {
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--black);
+}
+
+.despre-main .location-sect .location-coloana1 p {
+  line-height: 1.5;
+  width: 575px;
+  color: var(--black);
+}
+
+.despre-main .location-sect .location-coloana1,
+.despre-main .location-sect .location-coloana2 {
+  display: inline-block;
+}
+
+.despre-main .location-sect .location-coloana2 img {
+  width: 329px;
+  height: 237px;
+  position: relative;
+  top: 30px;
+}
+
+.despre-main .location-sect .location-coloana-div {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.despre-main .location-sect .location-images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 65px;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 0px;
+}
+
+.despre-main .location-sect .location-images .location-imgs-top :first-child {
+  width: 420px;
+  height: 420px;
+}
+
+.despre-main .location-sect .location-images .location-imgs-top :nth-child(2) {
+  width: 420px;
+  height: 420px;
+}
+
+.despre-main .location-sect .location-images .location-imgs-top :nth-child(3) {
+  width: 355px;
+  height: 690px;
+}
+
+.despre-main .location-sect .location-images img {
+  border-radius: 16px;
+}
+
+.location-imgs-top {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.despre-main .location-sect .room-of-programmers {
+  width: 850px;
+  height: 388px;
+  position: relative;
+  bottom: 288px;
+  left: 180px;
+}
+
+.border-top {
+  border-top: 1px solid var(--border-top-blue);
+}
+
+@media screen and (max-width: 1024px) {
+  .cine-suntem {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cine-suntem .cine-suntem-coloana2 img {
+    width: 860px;
+    height: 812px;
+    position: relative;
+    left: 125px;
+  }
+
+  .cine-suntem .cine-suntem-coloana2 h1 {
+    max-width: 500px;
+  }
+
+  .cine-suntem .cine-suntem-coloana1 img {
+    width: 860px;
+    height: 720px;
+    padding-left: 20px;
+  }
+
+  .cine-suntem .cine-suntem-coloana1 h1 {
+    max-width: 510px;
+  }
+
+  .queries-padding-left {
+    padding-left: 35px;
+  }
+
+  .our-trainers {
+    position: relative !important;
+    left: 390px !important;
+  }
+
+  .location-sect {
+    padding-bottom: 550px;
+  }
+
+  .location-sect .location-coloana2 img {
+    position: relative;
+    right: 253px;
+  }
+
+  .location-sect .location-images .location-imgs-top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 117px;
+  }
+
+  .location-sect .location-images .location-imgs-top :nth-child(3) {
+    position: absolute;
+    right: 83px;
+    top: 5022px;
+    width: 355px;
+    height: 690px;
+  }
+
+  .location-sect .location-images .room-of-programmers {
+    position: absolute;
+    top: 5946px;
+    left: 47px;
+    width: 916px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cine-suntem .cine-suntem-coloana1 h1 {
+    max-width: 400px;
+  }
+
+  .cine-suntem .cine-suntem-coloana1 img {
+    width: 580px;
+    height: 580px;
+  }
+
+  .cine-suntem .cine-suntem-coloana2 img {
+    width: 580px;
+    height: 580px;
+  }
+
+  .location-sect .location-coloana-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .location-sect .location-coloana-div img {
+    width: 500px !important;
+    height: 500px !important;
+    top: -311px !important;
+    left: 14px;
+  }
+
+  .location-sect .location-images .location-imgs-top :nth-child(3) {
+    top: 6351px;
+    left: 145px;
+  }
+
+  .location-sect .location-images .room-of-programmers {
+    right: 20px;
+    left: 32px;
+    width: 674px;
+    height: 365px;
+    top: 7062px;
+  }
+
+  .location-sect {
+    padding-bottom: 1190px;
+  }
+
+  .our-trainers {
+    position: relative !important;
+    left: 265px !important;
+  }
+}

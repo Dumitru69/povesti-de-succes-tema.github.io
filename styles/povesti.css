@@ -1,0 +1,201 @@
+.povesti-main .povesti-intro {
+  width: 100%;
+  height: 326px;
+  background-image: url(https://www.itschool.ro/_next/static/media/background-interview.02b14b3d.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.povesti-main .povesti-intro .povesti-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 34px;
+  margin: 0;
+  padding-top: 126px;
+}
+
+.header {
+  font-size: 20px;
+}
+
+.povesti-main .povesti-de-succes .povesti-descriere {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.povesti-main .povesti-de-succes .povesti-descriere h5 {
+  color: var(--transparent-gray);
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.povesti-main .povesti-de-succes .povesti-descriere h1 {
+  color: var(--black);
+  font-size: 40px;
+  font-weight: normal;
+  width: 880px;
+}
+
+.povesti-main .povesti-de-succes .povesti-descriere p {
+  font-size: 18px;
+  color: var(--black);
+  line-height: 1.5;
+  font-weight: normal;
+  width: 880px;
+}
+
+.povesti-main .povesti-de-succes .sort-by-story .by-course p {
+  color: var(--transparent-gray);
+  padding: 0 0 5px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.povesti-main .povesti-de-succes .sort-by-story .by-date p {
+  color: var(--transparent-gray);
+  padding: 0 0 5px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.povesti-main .povesti-de-succes .sort-by-story {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 60px 0 60px 0;
+}
+
+.options-curs {
+  border-radius: 20px;
+  padding: 10px 0px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.options-date {
+  border-radius: 20px;
+  padding: 10px 117px;
+  font-size: 19px;
+}
+
+.options-curs:hover {
+  border-color: var(--normal-green);
+}
+
+.options-curs:hover,
+.options-curs option:hover {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.options-date:hover {
+  border-color: var(--normal-green);
+}
+
+.options-date:hover,
+.options-date option:hover {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.povesti-de-succes .the-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.povesti-de-succes {
+  padding-bottom: 100px;
+}
+
+.povesti-de-succes .the-stories .story {
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 16px;
+  gap: 26px;
+  background-color: var(--light-gray);
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 20px 40px;
+  width: 877px;
+  height: 232px;
+}
+
+.povesti-de-succes .the-stories .story img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+
+.povesti-de-succes .the-stories .story .story-name {
+  font-size: 36px;
+  font-weight: normal;
+  padding-bottom: 19px;
+  margin: 0;
+}
+
+.povesti-de-succes .the-stories .story .story-text img {
+  width: 24px;
+  height: 24px;
+}
+
+.povesti-de-succes .the-stories .story .story-text p {
+  color: gray;
+  font-size: 19px;
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.povesti-de-succes .the-stories .story .story-text .image-text-coloana {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.povesti-main .free-consult {
+  background-image: url(https://www.itschool.ro/_next/static/media/background.c097b26b.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+}
+
+.free-consult .consult-content .consult-text {
+  color: var(--white);
+  padding-top: 100px;
+}
+
+.free-consult .consult-content .consult-text h4 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.free-consult .consult-content .consult-text h1 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.free-consult .consult-content .consult-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.free-consult .consult-content .consult-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
